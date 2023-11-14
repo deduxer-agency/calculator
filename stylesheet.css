@@ -1,0 +1,507 @@
+.positionContent {
+	margin-left: 0px; margin-right: 0px; margin-top: 1px; margin-bottom: 5px;
+}
+
+FORM {
+	margin-left: 0px; margin-right: 0px; margin-top: 5px; margin-bottom: 10px;
+}
+
+
+BODY {
+	color: #4D4D4D; background-color: white;
+}
+
+H1 {
+	padding-top: 13px; font-size: 18px;
+}
+
+TD, TH, DIV, P {
+	font-family: Arial; font-size: 13px;
+}
+
+B {
+	font-weight: bold;
+}
+
+i {
+	font-style: italic;
+}
+
+a:link{color:#48474B}
+a:visited{color:#48474B}
+a:hover{color:#000000}
+
+.markiert{
+	/*background-color: #4E4E4E; */
+	background-color: #B2DDD3;;
+	color:#000000;
+}
+.markiert2{
+	/*background-color: #4E4E4E; */
+	background-color: #B2DDD3;;
+	color:#000000;
+}
+.markiertFehler{
+	background-color: #E0312B; color:#FFFFFF;
+}
+.hinweis{
+	background-color: #ffffaa; color:#FF0000;
+}
+
+.markiertOhneDruck{ background-color: #00856E; color:#FFFFFF;}
+.markiert2OhneDruck{ background-color: #00856E; color:#FFFFFF;}
+.nurDruck{ display:none; }
+
+
+TABLE.main, TABLE.main2, TABLE.main3 { width:908px;}
+TABLE.main2-druck { width:800px;}
+TABLE.main3_einkauf, TABLE.main3_wahl { width:908px; }
+TABLE.main3_einkauf_weiter { width:100%; } 
+
+TABLE TD { 
+	margin:0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	border-color:#00856E;
+}
+
+TABLE.main TD{
+		border:none;
+		padding-right: 0px;
+		padding-left: 0px;
+		padding-bottom: 0px;
+		
+}
+TABLE.main2 TD{
+		padding-right: 5px;
+		padding-left: 5px;
+		padding-bottom: 0px;
+		/*border: 1px solid black;*/
+}
+TABLE.main3 TD{
+        border:none;
+		background-color:#F2F2F2;
+        padding-right: 5px;
+        padding-left: 5px;
+}
+
+TABLE.main3_wahl TD{
+		border:none;
+		background-color:#F2F2F2;
+		padding-right: 5px;
+		padding-left: 5px;
+	/*	border: 1px solid white;*/
+}
+
+TABLE.main3_einkauf TD{
+		border:none;
+		background-color:#dddddd;
+		padding-right: 5px;
+		padding-left: 5px;
+}
+
+
+
+TABLE.main3_einkauf_weiter TD{
+		border:none;
+		background-color:#dddddd;
+		padding-right: 0px;
+		padding-left: 0px;
+}
+
+TABLE TD.markiert2{
+	/*background-color: #4E4E4E; */
+	background-color: #B2DDD3;
+	color:#000000;
+}
+
+TABLE TD.rechts{
+		border-right: 1px solid; 
+/*		border-color:#00856E; */
+}
+
+TABLE TD.markiert2rechts{
+	/*background-color: #4E4E4E; */
+	background-color: #B2DDD3;
+	color:#000000;
+	border-right: 1px solid; 
+}
+
+TABLE TD.unten{
+	border-bottom: 1px solid;
+}
+
+TABLE TD.markiert2unten{
+	/*background-color: #4E4E4E; */
+	background-color: #B2DDD3;
+	color:#000000;
+	border-bottom: 1px solid;
+}
+
+TABLE TD.links{
+	border-left: 1px solid;
+}
+
+TABLE TD.markiert2links{
+	/*background-color: #4E4E4E; */
+	background-color: #B2DDD3;
+	color:#000000;
+	border-left: 1px solid;
+}
+
+TABLE TD.oben{
+	border-top: 1px solid;
+}
+
+TABLE TD.linksrechts{
+	border-left: 1px solid;
+	border-right: 1px solid;
+}
+
+TABLE TD.markiert2linksrechts{
+	/*background-color: #4E4E4E; */
+	background-color: #B2DDD3;
+	color:#000000;
+	border-left: 1px solid;
+	border-right: 1px solid;
+}
+
+TABLE TD.linksoben{
+	border-left: 1px solid;
+	border-top: 1px solid;
+}
+
+TABLE TD.rechtsoben{
+	border-right: 1px solid;
+	border-top: 1px solid;
+}
+
+TABLE TD.linksrechtsoben{
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-top: 1px solid;
+}
+
+TABLE TD.linksunten{
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+}
+
+TABLE TD.markiert2linksunten{
+	/*background-color: #4E4E4E; */
+	background-color: #B2DDD3;
+	color:#000000;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+}
+
+TABLE TD.rechtsunten{
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+}
+
+TABLE TD.markiert2rechtsunten{
+	/*background-color: #4E4E4E; */
+	background-color: #B2DDD3;
+	color:#000000;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+}
+
+TABLE TD.linksrechtsunten{
+	border-left: 1px solid; 
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+}
+
+TABLE TD.markiert2linksrechtsunten{
+	/*background-color: #4E4E4E; */
+	background-color: #B2DDD3;
+	color:#000000;
+	border-left: 1px solid; 
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+}
+
+TABLE TD.fehlendertext{
+	background-color:#FFFF00;
+}
+
+TD.zwischenzeile{
+	height: 8px;
+}
+
+/* hier werden die relativen Breiten der Spalten definiert */
+COL.col1 { width: 55%; }
+COL.col2 { width: 20%; }
+COL.col3 { width: 15%; }
+COL.col4 { width: 10%; }
+
+COL.col5 { width: 70%; }
+COL.col6 { width: 30%; }
+
+COL.col5a { width: 40%; }
+COL.col6a { width: 60%; }
+
+/* Ausgabe Beiträge und Info Einlagen*/
+Col.colb1 {width:20%;}
+Col.colb2 {width:15%;}
+Col.colb3 {width:15%;}
+Col.colb4 {width:15%;}
+Col.colb5 {width:15%;}
+Col.colb6 {width:20%;}
+
+/* Ausgabe Altersleistung*/
+Col.cola1 {width:7.5%}
+Col.cola2 {width:7.5%}
+Col.cola3 {width:17.5%}
+Col.cola4 {width:17.5%}
+Col.cola5 {width:16%}
+Col.cola6 {width:16%}
+Col.cola7 {width:17%}
+
+/* Ausgabe Einkaufspotenzial*/
+Col.cole1{width: 2%;}
+Col.cole2{width:80%;}
+Col.cole3{width:18%;}
+
+/* Weitere Tabellen*/
+COL.col21 { width: 4%; }
+COL.col22 { width: 20%; }
+COL.col23 { width: 12%; }
+COL.col24 { width: 14%; }
+COL.col25 { width: 13%; }
+COL.col26 { width: 10%; }
+COL.col27 { width: 5%; }
+COL.col28 { width: 10%; }
+COL.col29 { width: 16%; }
+
+COL.col21a { width: 3%; }
+COL.col22a { width: 25%; }
+COL.col23a { width: 7%; }
+COL.col24a { width: 12%; }
+COL.col25a { width: 11%; }
+COL.col26a { width: 12%; }
+COL.col27a { width: 18.5%; }
+COL.col28a { width: 11.5%; }
+
+/* Hier werden die relativen Breiten der Spalten von Info_Beitraege und Info_Altersleistungen definiert */
+COL.col12 { width: 10%; }
+COL.col13 { width: 15%; } /* 6 Spalten mit Beiträgen */
+
+COL.col15 { width: 10%; }
+COL.col16 { width: 20%; }
+COL.col17 { width: 10%; } /* 6 Spalten mit UWS */
+COL.col18 { width: 10%; }
+
+.title { 
+	font-size: 14px; font-weight: bold;
+}
+
+small {
+	font-family: Arial; font-size: 11px;
+}
+
+.radio_sex {
+    color: #00664E;
+	background-color: #B2DDD3;
+	border: 1px solid #bebebe;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	box-shadow: none;
+	float:right;
+	width: 90px;
+}
+.radio_sex2 {
+	border-style: none;
+}
+
+.radio_WahlUR{
+    color: #00664E;
+	background-color: #B2DDD3;
+	border: 1px solid #bebebe;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	box-shadow: none;
+	width: 500px;
+}
+
+.radio_WahlUR2 {
+	border-style: none;
+}
+
+.radio_WahlVorbezug{
+    color: #00664E;
+	background-color: #B2DDD3;
+	border: 1px solid #bebebe;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	box-shadow: none;
+	width: 300px;
+}
+
+.radio_WahlVorbezug2 {
+	border-style: none;
+}
+
+INPUT[type=radio] {
+    background-color: #B2DDD3;
+	color: #00664E;
+	border-left-style: none;
+}
+
+INPUT, SELECT {
+/*	color:#4D4D4D;*/
+	color: #00664E;
+/*	background-color: #E9EAEA;*/
+	background-color: #B2DDD3; 
+	border: 1px solid #bebebe;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	box-shadow: none;
+}
+
+INPUT[type=radio] {
+    background-color: #B2DDD3;
+	color: #00664E;
+	border-left-style: none;
+}
+
+
+.pushbutton { 
+	background-color: #00856E; border-style: solid; border-width: 0px; 
+	height: 32px; width: 110px; color:#FFFFFF;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+}
+
+.pushbuttonlong {
+	background-color: #00856E; border-style: solid; border-width: 0px; 
+	height: 23px; width: 440px; color:#FFFFFF;
+}
+
+.pushbuttonprint { 
+	background-color: #00856E; border-style: solid; border-width: 0px; 
+	height: 32px; width: 110px; color:#FFFFFF;
+}
+
+.pushbuttoninfo { 
+	background-color: #E0312B; border-style: solid; border-width: 0px; 
+	height: 23px; width: 130px; color:#FFFFFF;
+}
+
+
+.pushbuttontab{ 
+	background-color: #EBEBEB; border-style: solid; border-width: 0px; height: 32px;
+	font-family: Arial;  width: 130px; color:#000000;
+}
+.pushbuttontabmarkiert{ 
+	background-color: #00856E; border-style: solid; border-width: 0px; height: 32px;
+	font-family: Arial;  width: 130px; color:#ffffff;
+}
+
+#geburtsjahr, #eintrittsjahr, #stichjahr, #pensionierungsjahr, #AGHeinlagejahr1, #AGHeinlagejahr2, #AGHeinlagejahr3, #vorbezugjahr {
+	width: 70px;
+}
+#geburtsmonat, #eintrittsmonat, #stichmonat, #pensionierungsmonat, #AGHeinlagemonat1, #AGHeinlagemonat2, #AGHeinlagemonat3, #vorbezugmonat {
+	width: 110px;
+}
+#stichtag, #geburtstag, #zins1, #zins2, #lohnErh, #AGHeinlagetag1, #AGHeinlagetag2, #AGHeinlagetag3, #vorbezugtag {
+	width: 70px;
+}
+#bg , #ruecktrittsalter, #beitragsjahre {
+	width: 70px;
+}
+#altersguthaben, #jahresLohn, #einlageUWS, #beitragsskala, #beitragsskala_alt, #altersguthabenBVG {
+	width: 195px;
+}
+#UeRgewuenscht, #beschaeftigungsgrad, #Kapitalgewuenscht, #Monatsrentegewuenscht, #AGHeinlage1, #AGHeinlage2, #AGHeinlage3, #vorbezug, #fzl50 {
+	width:100px;
+}
+
+
+@media print {
+
+	.pushbuttonprint {
+		display: none;
+	}
+	.pushbuttoninfo {
+		display: none;
+	}
+	.pushbutton {
+		display: none;
+	}
+	.pushbuttonlong {
+		display: none;
+	}             
+	.pushbuttoninfokurz {
+		display: none;
+	}
+
+	BODY,TD, TH, DIV, CENTER, P,INPUT { font-size: 9pt; margin: 0;}
+	SELECT { font-size: 9pt; margin: 0; background-color:#FFFFFF }
+
+	.title { font-size: 10pt; font-weight: bold;}
+
+	small {
+		font-family: Arial; font-size: 8pt;
+	}
+
+
+	TABLE.main  { width:17cm;}
+	TABLE.main2 { width:17cm;}
+	TABLE.main2-druck { width:15cm;}
+	TABLE.main3 { width:17cm;}
+	TABLE.main3_einkauf,TABLE.main3_wahl { width:17cm; }
+	TABLE.main3_einkauf_weiter { width:100%; } 
+
+	TABLE.main TD, TABLE.main3 TD{
+
+	}
+
+	TABLE.main2 TD{
+		padding-right: 1mm;
+		padding-left: 1mm;
+	}
+
+	TABLE.main3 TD{
+		padding-right: 1mm;
+		padding-left: 1mm;
+	}
+	TABLE.main3_wahl TD{
+		padding-right: 1mm;
+		padding-left: 1mm;
+	}
+
+	TABLE.main3_einkauf TD{
+		padding-right: 1mm;
+		padding-left: 1mm;
+	}
+
+	.markiert2{
+		/*background-color: #4E4E4E; */
+		color:#000000;
+		font-weight: bold; 
+	}
+	
+	.markiertOhneDruck{display:none}
+	.markiert2OhneDruck{display:none}
+	.nurDruck{display: block}
+	.keinDruck {display:none}
+
+	TABLE.main2 TD.keinDruck{
+		display:none;
+	}
+	TABLE.main TD.keinDruck{
+		display:none;
+	}
+	TD.zwischenzeile{
+		height: 3mm;
+	}
+	FORM {
+		margin: 0mm;
+	}
+}
